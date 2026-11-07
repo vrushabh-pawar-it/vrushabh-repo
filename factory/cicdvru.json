@@ -1,0 +1,15 @@
+{
+	"name": "cicdvru",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b8f9b55-9f60-4dd7-8a89-f512908b171c",
+		"tenantId": "088e2a89-ba4d-4a48-ace4-8316c802c7e3"
+	}
+}
