@@ -10,13 +10,21 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "x",
+					"value": "10"
+				}
 			}
 		],
 		"parameters": {
 			"hello": {
-				"type": "string",
-				"defaultValue": "10"
+				"type": "string"
+			}
+		},
+		"variables": {
+			"x": {
+				"type": "String"
 			}
 		},
 		"annotations": []
